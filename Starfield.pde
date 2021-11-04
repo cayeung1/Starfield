@@ -5,7 +5,7 @@ class particle {
   particle() {
     myX = 250.0;
     myY = 250.0;
-    mySpeed = (Math.random()*8+7);
+    mySpeed = (Math.random()*8+6);
     myAngle = Math.random()*2*Math.PI;
     myColor = color((int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*256));
   }
